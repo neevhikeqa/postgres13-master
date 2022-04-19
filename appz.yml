@@ -11,7 +11,7 @@ build:
     image_template: postgres_master-13.3
     
 deploy:
-    context: alpha/DEV
+    context:  neevhikeqa/DEV
     type: statefulset
     ingress: none
     replicas: 1
