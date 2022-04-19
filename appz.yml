@@ -13,7 +13,6 @@ build:
 deploy:
     context:  neevhikeqa/DEV
     type: statefulset
-    ingress: none
     replicas: 1
     port:
     - 5432
